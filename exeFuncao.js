@@ -21,12 +21,12 @@ if(palavra === aux){
 
 /*  Forma enxuta
     
-let palavra = prompt("Palavra: ")
-let invertida = palavra.trim().split("").reverse().join("")
+    let palavra = prompt("Palavra: ")
+    let invertida = palavra.trim().split("").reverse().join("")
 
-if(palavra.trim() === invertida){
-    alert("Sim")
-} else{
-    alert("Não")
-}
+    if(palavra.trim() === invertida){
+        alert("Sim")
+    } else{
+        alert("Não")
+    }
 */

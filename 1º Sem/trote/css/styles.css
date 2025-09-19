@@ -1,0 +1,293 @@
+body{
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header{
+    background-color: #28a745;
+    color: white;
+    padding: 15px 0; /* espaçamento interno, 15px cima e baixo, 0 laterais */
+    font-size: 24px;
+    border: 1px solid black;
+}
+
+nav{
+    background-color: #007bff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+#links-menu{
+    display: flex;
+    gap: 15px;
+}
+
+.footerfix{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: #3ead58;
+    color: white;
+    font-size: medium;
+    padding-top: 10px;
+    position: fixed;
+    height: 85px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+.footerfix img{
+    width: 30px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: -10px;
+}
+
+.footer{
+    padding-top: 10px;
+    height: 85px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: #3ead58;
+    color: white;
+    font-size: medium;
+}
+
+.footer img{
+    width: 30px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: -10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none; /* tira decoração do link */
+    padding: 10px 15px; /* 10px é acima e abaixo, 15px é esq e dir */
+    font-size: 18px;
+    background: #005663;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background: #003d82;
+}
+
+img{
+    width: 120px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.container{
+    width: 80%;
+    margin: 20px auto; /* 20px cima e baixo, automático esq e dir */
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+h2{
+    text-align: center;
+}
+
+.tablecenter{
+    text-align: center;
+}
+
+.tablesangue{
+    text-align: center;
+}
+
+.tablesangue td{
+    padding-inline: 80px;
+}
+
+.tablecenter li{
+    list-style: none;
+    margin-left: -50px;
+
+}
+
+table td{
+    padding-inline: 25px;
+}
+
+table th{
+    padding-inline: 25px;
+    text-align: center;
+}
+
+ul li{
+    text-align: justify;
+}
+
+ol li{
+    text-align: justify;
+}
+
+.p {
+    text-align: center;
+}
+
+.tablealinhado table{
+    margin: -25px 0 15px;
+}
+
+table {
+    margin: 0 auto;
+    border-spacing: 0;
+}
+
+.laranja{
+    background-color: orange;
+    font-weight: bold;
+}
+
+#laranja{
+    color: orange;
+}
+
+.azul{
+    background-color: rgb(2, 2, 163);
+    color: white;
+    font-weight: bold;
+}
+
+.preta{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+#preto{
+    color: black;
+}
+
+.roxo{
+    background-color: rgb(183, 69, 183);
+    font-weight: bold;
+}
+
+#roxo{
+    color: rgb(183, 69, 183);
+}
+
+.verde{
+    background-color: rgb(6, 187, 6);
+    font-weight: bold;
+}
+
+#verde{
+    color: rgb(6, 187, 6);
+}
+
+.vermelho{
+    background-color: rgb(240, 30, 30);
+    font-weight: bold;
+}
+
+#vermelho{
+    color: rgb(240, 30, 30);
+}
+
+.cinza{
+    background-color: rgb(167, 165, 165);
+}
+
+.azulclaro{
+    background-color: rgba(181, 206, 230, 0.541);
+}
+
+.bege{
+    background-color: beige;
+}
+
+.semicone{
+    list-style: none;
+}
+
+.campos{
+    margin: 20px;
+}
+
+.circlelist{
+    list-style: circle;
+}
+
+ol li{
+    list-style:decimal
+}
+
+.checkmarklist{
+    list-style: none
+}
+
+.checkmarklist li:before{
+    content: " ✓ ";
+}
+
+.arrowlist li{
+    list-style: none;
+}
+
+.arrowlist li:before{
+    content: " ➔ ";
+}
+
+.sublist li{
+    list-style: circle;
+}
+
+.sublist li:before{
+    content: none;
+}
+.sublist li ul li{
+    list-style: none;
+}
+
+.sublist li ul li:before{
+    content: "- ";
+}
+
+.hifem li{
+    list-style: none;
+}
+
+.hifem li:before{
+    content: "- ";
+}
+
+h3:before{
+    content: "⇨ ";
+}
+
+.titulotabela{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.calculadora{
+    margin: 0 auto;
+    width: 450px;
+}
+
+.calculadora input{
+    float: right
+}
+
+.campos button{
+    margin: 0 100px
+}
+

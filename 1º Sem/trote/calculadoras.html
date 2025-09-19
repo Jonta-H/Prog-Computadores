@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trote Solidário - 2025</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="./js/scripts.js"></script>
+    </head>
+    <body>
+        <header> <!-- cabeçalho do corpo da página -->
+            Trote Solidário - 2025
+        </header>
+        <nav>
+            <div id="links-menu">
+                <a href="index.html"> Home </a>
+                <a href="introducao.html"> Introdução </a>
+                <a href="objetivo.html"> Objetivo </a>
+                <a href="formato.html"> Formato </a>
+                <a href="gincana.html"> Gincana </a>
+                <a href="integracao.html"> Integração </a>
+                <a href="observacoes.html"> Observações </a>
+                <a href="calculadoras.html"> Calculadoras </a>
+            </div>
+            <img src="images/trote.jpg" alt="Trote Solidário"/>
+        </nav>
+        <div class="container">
+            <h2>
+                 Calculadoras de Pontuação
+            </h2>
+            <div class="calculadora">
+                <form> <!-- formulário para entrada de dados do usuário -->
+                    <div class="campos">
+                        <label>Selecione a cor da equipe</label>
+                        <select id="equipe">
+                            <option value="laranja">Laranja</option>
+                            <option value="preta">Preta</option>
+                            <option value="roxa">Roxa</option>
+                            <option value="verde">Verde</option>
+                            <option value="vermelha">Vermelha</option>  
+                        </select>
+                    </div>
+                    <div class="campos">
+                        <label>Ação Social (pts)</label>
+                        <input type="number" id="acaosocial"/>
+                    </div>
+                    <div class="campos">
+                        <label>Homenagem (pts)</label>
+                        <input type="number" id="homenagem"/>
+                    </div>
+                    <div class="campos">
+                        <label>Mascote</label>
+                        <input type="number" id="mascote"/>
+                    </div>
+                    <div class="campos">
+                        <label>Caracterização e animação</label>
+                        <input type="number" id="animacao"/>
+                    </div>
+                    <div class="campos">
+                        <label>Caixas de leite (litros)</label>
+                        <input type="number" id="leite"/>
+                    </div>
+                    <div class="campos">
+                        <label>Kits alimentação</label>
+                        <input type="number" id="kit"/>
+                    </div>
+                    <div class="campos">
+                        <label>Latas de suplemento</label>
+                        <input type="number" id="suplemento"/>
+                    </div>
+                    <div class="campos">
+                        <label>Pacotes de arroz (kg)</label>
+                        <input type="number" id="arroz"/>
+                    </div>
+                    <div class="campos">
+                        <label>Pacotes de feijão (kg)</label>
+                        <input type="number" id="feijao"/>
+                    </div>
+                    <div class="campos">
+                        <label>Pacotes de macarrão (un.)</label>
+                        <input type="number" id="macarrao"/>
+                    </div>
+                    <div class="campos">
+                        <label>Óleos</label>
+                        <input type="number" id="oleo"/>
+                    </div>
+                    <div class="campos">
+                        <label>Doações de sangue</label>
+                        <input type="number" id="doacao"/>
+                    </div>
+                    <div class="campos">
+                        <label>Registro audiovisual</label>
+                        <input type="number" id="audiovisual"/>
+                    </div>
+                    <div class="campos">
+                        <button type="button" onclick="calcular()">Calcular</button>
+                        <label id="soma"> </label>
+                    </div>
+                </form>
+            </div>    
+        </div>
+        <footer class="footer">
+                <div class="icons">
+                    <a href="https://www.unifacef.com.br/" target="_blank">
+                        <img src="https://www.unifacef.com.br/wp-content/uploads/2016/02/cropped-unifacef-192x192.png">
+                    </a>
+                    <a href="https://www.instagram.com/unifacef/" target="_blank">
+                        <img src="./images/instagram-icon.png">
+                    </a>
+                </div>
+                <p>Av. Ismael Alonso y Alonso, 2400 - Bairro São José – CEP: 14.403-430 - Franca/SP
+                <br>Fone: (16) 3713-4688</br></p>
+        </footer> 
+    </body>
+</html>

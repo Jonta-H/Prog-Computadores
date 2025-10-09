@@ -3,7 +3,7 @@ function main() {
     listaInicial(vetor)
     do {
         let media = mediaSalarial(vetor)
-        opcao = Number(prompt("1. Cadastrar funcionário\n2. Listar funcionários\n3. Aumentar salário\n4. Buscar salário (nome)\n5. Atualizar cargo\n6. Remover funcionário\n7. Média salarial da empresa\n8. Promover funcionários\n9. Maior salário:\n10. Encerrar"))
+        opcao = Number(prompt("1. Cadastrar funcionário\n2. Listar funcionários\n3. Aumentar salário\n4. Buscar salário (nome)\n5. Atualizar cargo\n6. Remover funcionário\n7. Média salarial da empresa\n8. Promover funcionários\n9. Maior salário\n0. Encerrar"))
         
         switch (opcao) {
             case 1:
@@ -33,13 +33,13 @@ function main() {
             case 9:
                 maiorSalario(vetor)
                 break;
-            case 10:
+            case 0:
                 alert("Encerrando...")
                 break;
             default: alert("Opção inválida!")
                 break;
         }
-    } while (opcao != 10)
+    } while (opcao != 0)
 }
 
 function maiorSalario(lista){
@@ -50,7 +50,7 @@ function maiorSalario(lista){
             indice = i
         }
     }
-    console.log(`Maior salário\nFuncionário: ${(lista[indice]).nome}\tSalário: R$${(lista[indice]).toFixed(2)}`)
+    console.log(`Maior salário\nFuncionário: ${lista[indice].nome}\tSalário: R$${(lista[indice].salario).toFixed(2)}`)
 }
 
 function promoverFuncionarios(lista, media){
@@ -78,7 +78,7 @@ function removerFuncionario(lista, nome) {
         }
     }
 
-    console.log("Funcionário não encontrado.")
+    alert("Funcionário não encontrado.")
 }
 
 function atualizarCargo(lista, nome) {
@@ -89,7 +89,7 @@ function atualizarCargo(lista, nome) {
         }
     }
 
-    console.log("Funcionário não encontrado.")
+    alert("Funcionário não encontrado.")
 }
 
 function listaInicial(lista) {
@@ -126,7 +126,7 @@ function buscarSalario(lista, nome) {
         }
     }
 
-    console.log("Funcionário não encontrado.")
+    alert("Funcionário não encontrado.")
 }
 
 main()

@@ -21,7 +21,7 @@
                 lista.innerHTML = ""
                 for(let i = 0; i < dados.length; i++){
                     const li = document.createElement("li")
-                    li.textContent = `Nome: ${dados[i].name}; Address: ${dados[i].address.street}, ${dados[i].address.city} - ${dados[i].address.zipcode}`
+                    li.textContent = `Nome: ${dados[i].name}; Endereço: ${dados[i].address.street}, ${dados[i].address.city} - ${dados[i].address.zipcode}`
                     lista.appendChild(li)
                 }
             } catch (erro){
@@ -30,7 +30,7 @@
             }
         }
     </script>
-
+;
 </body>
 
 </html>

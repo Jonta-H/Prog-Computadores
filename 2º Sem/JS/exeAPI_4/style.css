@@ -3,6 +3,7 @@ body{
     height: 100vh;
     margin: 0;
     padding: 0px;
+    background-color: rgb(185, 240, 240);
 }
 
 header{
@@ -27,8 +28,8 @@ nav button:hover{
    cursor: pointer;
 }
 
-nav input{
-    padding-inline: 15px;
+#inDados{
+    padding: 5px 15px;
     border-radius: 20px;
     height: 95%;
     margin: 0 15px;
@@ -42,6 +43,10 @@ nav{
     justify-content: center;
 }
 
+nav input{
+    
+}
+
 .container{
     margin: 15px auto;
     width: 90%;
@@ -53,16 +58,28 @@ nav{
     justify-content: space-evenly;
 }
 
-#filmes2025 img{
+.posterFilme img{
     width: 340px;
     height: 425px;
-    border-radius: 15px;
+    border-radius: 15px 15px 0 0;
     border: 2px solid black;
+    border-bottom: 0;
 }
 
 .posterFilme{
+    display: flex;
+    flex-direction: column;
     text-align: center;
     padding: 50px 0;
+}
+.posterFilme p{
+    font-size: x-large;
+    border: 2px solid black;
+    border-top: 0;
+    background-color: rgb(169, 190, 189);
+    margin: 0;
+    padding: 7px;
+    border-radius: 0 0 15px 15px;
 }
 
 h2{
@@ -73,4 +90,22 @@ h2{
 a{
     text-decoration: none;
     color: black;
+}
+
+.cardFilme{
+    display: flex;
+    width: 85%;
+    border: 3px solid rgba(0, 0, 0, 0.418);
+    border-radius: 50px;
+    margin: 50px auto;
+}
+
+.divPoster{
+    padding: 15px;
+    margin: 15px;
+}
+
+.divInfos{
+    font-size: larger;
+    padding: 50px;
 }

@@ -60,7 +60,7 @@ async function pesquisar() {
                 const titulo = document.createElement("h3"); titulo.textContent = `Título: ${dados.Title}`
                 const genero = document.createElement("p"); genero.textContent = `Gênero: ${dados.Genre}`
                 const diretor = document.createElement("p"); diretor.textContent = `Diretor: ${dados.Director}`
-                const sinopse = document.createElement("p"); sinopse.textContent = `Sinopse: ${dados.Plot}`
+                const sinopse = document.createElement("p"); sinopse.textContent = `Enredo: ${dados.Plot}`
                 const dataLancamento = document.createElement("p"); dataLancamento.textContent = `Data de Lançamento: ${dados.Released}`
                 const duracao = document.createElement("p"); duracao.textContent = `Duração: ${dados.Runtime}`
                 divPoster.append(poster)

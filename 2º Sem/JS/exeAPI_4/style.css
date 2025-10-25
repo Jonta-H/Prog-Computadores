@@ -43,10 +43,6 @@ nav{
     justify-content: center;
 }
 
-nav input{
-    
-}
-
 .container{
     margin: 15px auto;
     width: 90%;
@@ -94,10 +90,12 @@ a{
 
 .cardFilme{
     display: flex;
+    align-items: center;
     width: 85%;
     border: 3px solid rgba(0, 0, 0, 0.418);
     border-radius: 50px;
-    margin: 50px auto;
+    margin: 30px auto;
+    background-color: rgba(128, 128, 128, 0.212);
 }
 
 .divPoster{
@@ -106,6 +104,12 @@ a{
 }
 
 .divInfos{
-    font-size: larger;
+    font-size: x-large;
     padding: 50px;
+}
+
+.divPoster img{
+    width: 340px;
+    border-radius: 30px;
+    border: 2px solid black;
 }

@@ -19,6 +19,7 @@ button {
     color: white; /* cor do texto */
     border: none; /* altera a borda */
     padding: 10px 20px; /* 10 abaixo e 10 acima e 20 esquerda e 20 direita */
+    border-radius: 25px;
 }
 /* ao passar o mouse em cima do botão */
 button:hover {

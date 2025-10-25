@@ -19,10 +19,16 @@ nav button{
     border: 1px solid rgb(0, 0, 0);
     border-radius: 250px;
     padding: 5px 0;
+    background-color:rgba(128, 128, 128, 0.279);
+}
+
+nav button:hover{
+    background-color: rgba(0, 0, 0, 0.23);
+   cursor: pointer;
 }
 
 nav input{
-    padding-inline: 10px;
+    padding-inline: 15px;
     border-radius: 20px;
     height: 95%;
     margin: 0 15px;
@@ -62,4 +68,9 @@ nav{
 h2{
     border-bottom: 5px solid black;
     padding-bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }

@@ -17,7 +17,7 @@ async function start() {
             const img = document.createElement("img")
             img.src = linkPoster; p.textContent = titulo
             div.append(img, p); div.className = "posterFilme"
-            mural.appendChild(div)
+            mural.append(div)
         }
     } catch (erro) {
         console.log(`Erro: ${erro}`)

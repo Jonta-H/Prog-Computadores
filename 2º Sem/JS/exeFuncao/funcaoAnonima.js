@@ -1,7 +1,7 @@
 let notas = []
 
 for(let i = 0; i < 10; i++){
-    notas[i] = Math.floor(Math.random() *10)
+    notas.push(Number(prompt(`Informe a ${i+1}ª nota:`)))
 }
 
 let soma = 0; aprovados = 0
